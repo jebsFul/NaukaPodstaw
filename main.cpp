@@ -3,7 +3,7 @@
 
 #include <iostream> //biblioteka standardowa do obsługi wejścia/wyjścia, zawiera definicje dla std::cout, std::cin, std::endl itp.
 
-//Biblioteki FLTK - do GUI, cross platform. dobre dla linuxa, ale claude ma wątpliwości czy do windowsa też 
+//Biblioteki FLTK - do GUI, cross platform. Dobre dla linuxa, ale claude ma wątpliwości czy do windowsa też 
 //#include <FL/Fl.H>
 //#include <FL/Fl_Window.H>
 //#include <FL/Fl_Box.H>
