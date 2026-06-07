@@ -3,12 +3,6 @@
 
 #include <iostream> //biblioteka standardowa do obsługi wejścia/wyjścia, zawiera definicje dla std::cout, std::cin, std::endl itp.
 
-//Biblioteki FLTK - do GUI, cross platform. Dobre dla linuxa, ale claude ma wątpliwości czy do windowsa też 
-//#include <FL/Fl.H>
-//#include <FL/Fl_Window.H>
-//#include <FL/Fl_Box.H>
-//#include <FL/Fl_Button.H>
-
 //using namespace std; //użycie przestrzeni nazw std, dzięki czemu można pisać cout zamiast std::cout, czy std::string itp.
 const unsigned short TESTSHORTINT = 123; //int z 2 bajtów zamiast 4. dzięki unsigned zakres ujemny nie jest dostępny i powiększa zakres dodatni do 0..65535. przydatne gdy potrzebujemy tylko dodatnich liczb i chcemy zaoszczędzić pamięć; dzięki const zmienna nie może być zmieniona w runtime; const dobrze oznaczyć kapitalikami np. TESTINT
 
